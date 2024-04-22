@@ -55,7 +55,8 @@ class User:
         self.password = password
 ```
 
-So, this "self" is related to a specific object, our real person or user (self => user1, user2 and so on)
+So, this "self" is related to a specific object, our real person or user (self => user1, user2 and so on).
+
 This allows us to create objects in the following way:
 
 ``` py
