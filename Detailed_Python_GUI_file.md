@@ -56,7 +56,7 @@ This line starts the definition of the create_account function, which does not t
 
 ``` py
     t2 = tk.Toplevel(main_frame)
-    t2.geometry("300x200")  # Size the Toplevel window
+    t2.geometry("200x150")  # Size the Toplevel window
 ```
 
 - **`t2 = tk.Toplevel(main_frame)`**: This creates a new window (Toplevel) which is a child of main_frame. This window will serve as the interface for user input required for signing up.
@@ -97,7 +97,7 @@ This line starts the definition of the create_account function, which does not t
             t2_entry_username.focus()
         )
     ))
-    t2_create_button.pack()
+    t2_create_button.pack(pady=(20,5))
 ```
 
 - **`tk.Button(t2, text="Create", command=lambda: ...)`**: Adds a "Create" button that, when clicked, triggers the embedded command defined by the lambda function.
