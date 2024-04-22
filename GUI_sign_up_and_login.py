@@ -13,7 +13,7 @@ main_frame.pack(expand=True)
 
 def create_account():
     t2 = tk.Toplevel(main_frame)
-    t2.geometry("300x200")  # Size the Toplevel window
+    t2.geometry("200x150")  # Size the Toplevel window
     
     tk.Label(t2, text="Username").pack()
     t2_entry_username = tk.Entry(t2)
@@ -21,7 +21,7 @@ def create_account():
 
     tk.Label(t2, text="Password").pack()
     t2_entry_password = tk.Entry(t2, show="*")
-    t2_entry_password.pack()
+    t2_entry_password.pack(pady=(20,5))
 
     t2_create_button = tk.Button(t2, text="Create", command=lambda: (
         messagebox.showinfo("Sign Up Result", result := U.sign_up(t2_entry_username.get(), t2_entry_password.get())),
