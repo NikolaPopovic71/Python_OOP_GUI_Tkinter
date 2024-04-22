@@ -59,7 +59,7 @@ You can use any editor that you prefer for this project:
 - For a detailed explanation of this file please see [Detailed textual file](About_textual_file.md)
 - [x] Now, in the same folder you should create a Python file `sign_up_login.py`. 
 - For a detailed explanation of this file please see [Detailed Explanation of file `sign_up_login.py`](Detailed `sign_up_login.py`)
-- Original Python file `sign_up_login.py` you can see here [](`sign_up_login.py`)
+- Original Python file `sign_up_login.py` you can see here [Python file with classes](Python_file_with_classes.md)
 - [x] at the end create in the same folder the second Python file `GUI_sign_up_login.py`. 
 - For a detailed explanation of this file please see [Detailed Explanation of file `GUI_sign_up_login.py`](Detailed `GUI_sign_up_login.py`)
 - Original Python file `GUI_sign_up_login.py` you can see here [](`GUI_sign_up_login.py`)
