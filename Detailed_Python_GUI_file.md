@@ -83,7 +83,7 @@ This line starts the definition of the create_account function, which does not t
 ```
 
 - **`tk.Label(t2, text="Password").pack()`**: Similar to the username label, this line adds a "Password" label to the window.
-- **`t2_entry_password = tk.Entry(t2, show="*")`**: Creates an entry widget for the password. The show="*" argument masks the text input, showing asterisks (*) instead of the characters typed.
+- **`t2_entry_password = tk.Entry(t2, show="*")`**: Creates an entry widget for the password. The `show="*"` argument masks the text input, showing asterisks (*) instead of the characters typed.
 - **`t2_entry_password.pack()`**: Adds the password entry widget to the window layout.
 
 ##### Create Button and Its Command
@@ -119,3 +119,46 @@ This function manages the entire process of user registration from input collect
 > - "destroy" of "Tk" does not return a value;
 > - "delete" of "Entry" does not return a value
 > The code works, but what happens? Please, see here [Detailed why not lambda and walrus](Detailed_lambda_function_walrus.md)
+
+## 5. Welcome and Instruction Messages
+
+``` py
+welcome_label = tk.Label(...)
+instructions_label = tk.Label(...)
+```
+
+- Labels are added to the main_frame to display a welcome message and instructions for users.
+
+## 6. Login Interface
+
+``` py
+login_frame = tk.Frame(main_frame)
+...
+username_label = tk.Label(login_frame, text="Username:")
+entry_username = tk.Entry(login_frame)
+password_label = tk.Label(login_frame, text="Password:")
+entry_password = tk.Entry(login_frame, show="*")
+...
+```
+
+- A subframe (login_frame) and associated labels and entry widgets are created for username and password input. The password entry widget uses show="*" to hide the password characters.
+
+## 7. Action Buttons
+
+``` py
+login_button = tk.Button(...)
+sign_up_button = tk.Button(...)
+```
+
+- Buttons for logging in and signing up are created. The `Login` button checks credentials using U.login() and provides appropriate feedback. The `Sign Up` button opens the account creation window.
+
+## 8. Starting the GUI
+
+``` py
+root.mainloop()
+```
+
+- This is the event loop that waits for events (like button clicks) and updates the GUI accordingly.
+
+
+
