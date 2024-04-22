@@ -1,7 +1,8 @@
 # Python_OOP_GUI_Tkinter
-Intro to Python OOP - Sign Up and Login form
 
-## Intro to Python OOP (**O**bject-**O**riented **P**rogramming)
+## Intro to Python OOP - Sign Up and Login form
+
+### Intro to Python OOP (**O**bject-**O**riented **P**rogramming)
 
 Welcome to the adventure and attempt to explain the concept of OOP in Python as clearly as possible.
 The following example is simple at first glance, but it allows you to get to know other interesting terms in addition to OOP, such as:
@@ -16,7 +17,7 @@ The following example is simple at first glance, but it allows you to get to kno
 > walrus operator (:=) is available from Python 3.8 onwards, so you have to install Python 3.8 and newer versions
 
 
-## Let's begin our adventure!
+### Let's begin our adventure!
 
 The project will be about the simplest form of sign-up and login, whereas a primitive database will be created as a textual file.
 
