@@ -79,4 +79,6 @@ Of course, as we said at the beginning, this is one of the simplest examples of 
 1. that the user, if he does not fill in one of the fields offered, receives a message that he must do so
 2. to create a "Forgotten password" button, where the user will be allowed to create a new password
 3. to set conditions regarding the type of characters that can be used to create passwords and usernames, as well as the length of passwords and usernames, minimum and/or maximum characters
-4. that the program itself offers the user the appropriate code, etc.
+4. that the program itself offers the user the appropriate password,
+5. as well as that the program evaluates the strength of the password created by the user himself
+6. limit login attempts to a maximum of 3 due to a forgotten password or incorrectly entered username etc.
