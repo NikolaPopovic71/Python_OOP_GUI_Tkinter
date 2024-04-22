@@ -59,10 +59,10 @@ You can use any editor that you prefer for this project:
 - For a detailed explanation of this file please see [Detailed textual file](About_textual_file.md)
 - [x] Now, in the same folder you should create a Python file `sign_up_login.py`. 
 - For a detailed explanation of this file please see [Detalied Python file with classes](Detailed_Python_file_with_classes.md)
-- Original Python file `sign_up_login.py` you can see here 
+- Original Python file `sign_up_login.py` you can see here [Original Python file with classes](sign_up_login.py)
 - [x] at the end create in the same folder the second Python file `GUI_sign_up_login.py`. 
-- For a detailed explanation of this file please see [Detailed Explanation of file `GUI_sign_up_login.py`](Detailed `GUI_sign_up_login.py`)
-- Original Python file `GUI_sign_up_login.py` you can see here [](`GUI_sign_up_login.py`)
+- For a detailed explanation of this file please see [Detailed Explanation of Python GUI file](Detailed_Python_GUI_file.md)
+- Original Python file `GUI_sign_up_login.py` you can see here [Original Python GUI file](GUI_sign_up_login.py)
 
 > [!NOTE]
 > Of course, all folder and file names are arbitrary, so you can give them other names if these are illogical to you
