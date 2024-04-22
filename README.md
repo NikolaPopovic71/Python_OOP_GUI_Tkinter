@@ -56,7 +56,8 @@ You can use any editor that you prefer for this project:
 
 - [x] First, we will create (on "Desktop" or any disc you prefer) an empty folder and name it `Sign_Up_and_Login_form`
 - [x] Then inside it, we will create a text file, `users.txt` (to open this file you can use "Notepad", as well). 
-- For a detailed explanation of this file please see [Detailed Explanation of file `users.txt`](Detailed `users.txt`)
+- For a detailed explanation of this file please see 
+- https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/blob/main/About%20textual%20file.md
 - [x] Now, in the same folder you should create a Python file `sign_up_login.py`. 
 - For a detailed explanation of this file please see [Detailed Explanation of file `sign_up_login.py`](Detailed `sign_up_login.py`)
 - Original Python file `sign_up_login.py` you can see here [](`sign_up_login.py`)
