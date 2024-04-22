@@ -115,7 +115,7 @@ This function manages the entire process of user registration from input collect
 > - For the account creation in the create_account function, the lambda captures the result of the sign_up function, shows the result in a message box, and checks if the result indicates a successful account creation to close the t2 window.
 
 > [!TIP]
-> your editor (for example VSCode) with red letters might write the following messages:
+> your editor (for example VSCode) might write with red letters the following messages:
 > - "destroy" of "Tk" does not return a value;
 > - "delete" of "Entry" does not return a value
 > The code works, but what happens? Please, see here [Detailed why not lambda and walrus](Detailed_lambda_function_walrus.md)
@@ -159,6 +159,10 @@ root.mainloop()
 ```
 
 - This is the event loop that waits for events (like button clicks) and updates the GUI accordingly.
+
+> [!NOTE]
+> **Great!**
+> Now you can run the code from this GUI file!
 
 
 
