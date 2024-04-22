@@ -118,4 +118,4 @@ This function manages the entire process of user registration from input collect
 > your editor (for example VSCode) with red letters might write the following messages:
 > - "destroy" of "Tk" does not return a value;
 > - "delete" of "Entry" does not return a value
-> The code works, but what happens? Please, see here [Detailed why not lambda and walrus](Detailed_lambda_functions_walrus.md)
+> The code works, but what happens? Please, see here [Detailed why not lambda and walrus](Detailed_lambda_function_walrus.md)
