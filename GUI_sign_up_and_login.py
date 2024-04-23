@@ -3,7 +3,7 @@ from tkinter import messagebox
 from sign_up_login import *
 
 root = tk.Tk()
-root.title("Sign Up")
+root.title("Sign Up and Login")
 root.geometry("350x250")
 
 # Create a main frame to center all content
@@ -13,6 +13,7 @@ main_frame.pack(expand=True)
 
 def create_account():
     t2 = tk.Toplevel(main_frame)
+    t2.title("Create account")
     t2.geometry("200x150")  # Size the Toplevel window
     
     tk.Label(t2, text="Username").pack()
