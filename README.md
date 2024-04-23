@@ -83,3 +83,27 @@ Of course, as we said at the beginning, this is one of the simplest examples of 
 4. that the program itself offers the user the appropriate password,
 5. as well as that the program evaluates the strength of the password created by the user himself
 6. limit login attempts to a maximum of 3 due to a forgotten password or incorrectly entered username etc.
+
+---
+
+### How the program looks when it starts, you can see in the pictures shown below
+
+1. Starting **Sign Up and Login**
+   
+![Starting_sign_up_and_login](https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/assets/145991792/9cbe5e50-f98d-4883-add2-22155098b26e)
+
+2. Starting **Create account**
+
+![Starting_create_account](https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/assets/145991792/b5584e1a-5db7-468d-815e-b4fa0f9e39a4)
+
+3. **Create account successful**
+
+![Create_account_successful](https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/assets/145991792/add07687-db5b-4969-985a-67068a1be559)
+
+4. **Login successful**
+
+![Login_successful](https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/assets/145991792/783d8cb2-3bc3-4cd4-9bed-07b743d628e6)
+
+5. **Username already exists**
+
+![Username_already_exist](https://github.com/NikolaPopovic71/Python_OOP_GUI_Tkinter/assets/145991792/2564902c-b4af-40f2-b204-f983a8ff6f45)
